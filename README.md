@@ -13,4 +13,4 @@ Yolo has several advantages over classifier-based systems. It looks at the whole
 2. Image preparation
 3. Making predictions
 4. Drawing detected boxes
-5. Non maximal suppression
+5. Non maximal suppression for better object detection
