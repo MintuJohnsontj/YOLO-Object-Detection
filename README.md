@@ -16,7 +16,7 @@ Yolo has several advantages over classifier-based systems. It looks at the whole
 
 YOLO is based on the idea of segmenting an image into smaller images. The image is split into a square grid of dimensions S×S, like so:
 
-< img src="Images/yolo_segmentation.jpg" >
+<img src="Images/yolo_segmentation.jpg">
 ## Algorithm
 1. Load the model
 2. Image preparation
