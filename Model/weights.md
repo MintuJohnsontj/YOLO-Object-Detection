@@ -1,1 +1,1 @@
-[YOLO: Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)
+Download weights from: [YOLO: Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)
