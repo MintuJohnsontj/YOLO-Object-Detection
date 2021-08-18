@@ -12,14 +12,6 @@ Yolo use a totally different approach. It applies a single neural network to the
 
 Yolo has several advantages over classifier-based systems. It looks at the whole image at test time so its predictions are informed by global context in the image. It also makes predictions with a single network evaluation unlike systems like R-CNN which require thousands for a single image. This makes it extremely fast, more than 1000x faster than R-CNN and 100x faster than Fast R-CNN.
 
-### How YOLO works?
-
-YOLO is based on the idea of segmenting an image into smaller images. The image is split into a square grid of dimensions S×S, like so:
-
-<p align="center">
-  <img width="460" height="300" src="Images/yolo_segmentation.jpg">
-</p>
-
 ## Algorithm
 1. Load the model
 2. Image preparation
