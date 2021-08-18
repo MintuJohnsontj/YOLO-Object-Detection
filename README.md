@@ -1,4 +1,4 @@
-# YOLO-Object-Detection
+# YOLO Object Detection
 ## YOLO
 You only look once (YOLO) is a state-of-the-art, real-time object detection system.
 
@@ -8,3 +8,9 @@ Yolo use a totally different approach. It applies a single neural network to the
 
 Yolo has several advantages over classifier-based systems. It looks at the whole image at test time so its predictions are informed by global context in the image. It also makes predictions with a single network evaluation unlike systems like R-CNN which require thousands for a single image. This makes it extremely fast, more than 1000x faster than R-CNN and 100x faster than Fast R-CNN.
 
+## Algorithm
+1. Load the model
+2. Image preparation
+3. Making predictions
+4. Drawing detected boxes
+5. Non maximal suppression
